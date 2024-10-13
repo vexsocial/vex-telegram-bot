@@ -9,7 +9,7 @@ const CONFIG = {
 const localizations = {
   en: {
     welcomeText: `
-Welcome to VEX Social — the world of your privacy and freedom.
+Welcome to the VEX Social family.
 
 Use 🔐 VEX VPN and earn 1 $VP per megabyte.
 
@@ -87,7 +87,7 @@ Pronto per la vera libertà?`,
   },
   zh: {
     welcomeText: `
-欢迎来到VEX Social — 隐私和自由的世界。
+欢迎加入VEX Social大家庭。
 
 使用🔐 VEX VPN，每兆赚取1 $VP。
 
