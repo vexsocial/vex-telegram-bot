@@ -22,7 +22,7 @@ Ready for freedom?`,
   },
   ru: {
     welcomeText: `
-Добро пожаловать в VEX Social — мир вашей приватности и свободы.
+Добро пожаловать в семью VEX Social.
 
 Используйте 🔐 VEX VPN и зарабатывайте 1 $VP за мегабайт.
 
@@ -35,7 +35,7 @@ Ready for freedom?`,
   },
   es: {
     welcomeText: `
-Bienvenido a VEX Social — el mundo de tu privacidad y libertad.
+Bienvenido a la familia VEX Social.
 
 Usa 🔐 VEX VPN y gana 1 $VP por megabyte.
 
@@ -48,7 +48,7 @@ Estamos cocinando para ti:
   },
   fr: {
     welcomeText: `
-Bienvenue dans VEX Social — le monde de votre confidentialité et liberté.
+Bienvenue dans la famille VEX Social.
 
 Utilisez 🔐 VEX VPN et gagnez 1 $VP par mégaoctet.
 
@@ -61,7 +61,7 @@ Prêt pour la vraie liberté ?`,
   },
   de: {
     welcomeText: `
-Willkommen bei VEX Social — der Welt Ihrer Privatsphäre und Freiheit.
+Willkommen bei der Familie VEX Social.
 
 Nutze 🔐 VEX VPN und verdiene 1 $VP pro Megabyte.
 
@@ -74,7 +74,7 @@ Bereit für echte Freiheit?`,
   },
   it: {
     welcomeText: `
-Benvenuto in VEX Social — il mondo della tua privacy e libertà.
+Benvenuto nella famiglia VEX Social.
 
 Usa 🔐 VEX VPN e guadagna 1 $VP per megabyte.
 
