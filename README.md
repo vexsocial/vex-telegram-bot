@@ -50,7 +50,7 @@ The bot detects the user's language through the `language_code` field and sends 
 ### Links
 
 - [VEX Social](https://vex.so)
-- [VEX Social MINI APP](https://app.vex.so)
+- [VEX Social MINI APP](https://t.me/vexsocialbot/vex)
 - [VEX Social telegram channel](https://t.me/vexsocial)
 
 ### License
