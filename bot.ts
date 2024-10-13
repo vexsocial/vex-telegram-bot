@@ -1,10 +1,11 @@
-const TELEGRAM_API_URL = `https://api.telegram.org/bot${ENV_BOT_TOKEN}/`;
+const CONFIG = {
+  TELEGRAM_API_URL: `https://api.telegram.org/bot${ENV_BOT_TOKEN}/`,
+  WELCOME_IMAGE_URL:
+    "https://cdn.midjourney.com/b2782367-5cec-4bfb-bc55-31f7a00fb8b1/0_3.png",
+  VEX_APP_URL: "https://app.vex.so",
+  VEX_SOCIAL_URL: "https://t.me/vexsocial",
+};
 
-// URL для изображения
-const WELCOME_IMAGE_URL =
-  "https://cdn.midjourney.com/b2782367-5cec-4bfb-bc55-31f7a00fb8b1/0_3.png";
-
-// Локализации
 const localizations = {
   en: {
     welcomeText: `
@@ -18,10 +19,6 @@ We are cooking for you:
 💼 VEX WALLET - know why? ;)
 
 Ready for freedom?`,
-    buttons: [
-      [{ text: "Launch VEX", web_app: { url: "https://app.telegram.vex.so" } }],
-      [{ text: "Join VEX Social", url: "https://t.me/vexsocial" }],
-    ],
   },
   ru: {
     welcomeText: `
@@ -35,15 +32,6 @@ Ready for freedom?`,
 💼 VEX WALLET - вы знаете зачем ;)
 
 Готовы к настоящей свободе?`,
-    buttons: [
-      [
-        {
-          text: "Запустить VEX",
-          web_app: { url: "https://app.telegram.vex.so" },
-        },
-      ],
-      [{ text: "Присоединиться к VEX Social", url: "https://t.me/vexsocial" }],
-    ],
   },
   es: {
     welcomeText: `
@@ -57,10 +45,6 @@ Estamos cocinando para ti:
 💼 VEX WALLET - ya sabes para qué ;)
 
 ¿Listo para la verdadera libertad?`,
-    buttons: [
-      [{ text: "Lanzar VEX", web_app: { url: "https://app.telegram.vex.so" } }],
-      [{ text: "Únete a VEX Social", url: "https://t.me/vexsocial" }],
-    ],
   },
   fr: {
     welcomeText: `
@@ -74,10 +58,6 @@ Nous préparons pour vous :
 💼 VEX WALLET - vous savez pourquoi ;)
 
 Prêt pour la vraie liberté ?`,
-    buttons: [
-      [{ text: "Lancer VEX", web_app: { url: "https://app.telegram.vex.so" } }],
-      [{ text: "Rejoindre VEX Social", url: "https://t.me/vexsocial" }],
-    ],
   },
   de: {
     welcomeText: `
@@ -91,15 +71,6 @@ Wir bereiten für dich vor:
 💼 VEX WALLET - du weißt schon, wofür ;)
 
 Bereit für echte Freiheit?`,
-    buttons: [
-      [
-        {
-          text: "VEX starten",
-          web_app: { url: "https://app.telegram.vex.so" },
-        },
-      ],
-      [{ text: "Tritt VEX Social bei", url: "https://t.me/vexsocial" }],
-    ],
   },
   it: {
     welcomeText: `
@@ -113,10 +84,6 @@ Stiamo preparando per te:
 💼 VEX WALLET - sai perché ;)
 
 Pronto per la vera libertà?`,
-    buttons: [
-      [{ text: "Avvia VEX", web_app: { url: "https://app.telegram.vex.so" } }],
-      [{ text: "Unisciti a VEX Social", url: "https://t.me/vexsocial" }],
-    ],
   },
   zh: {
     welcomeText: `
@@ -130,15 +97,20 @@ Pronto per la vera libertà?`,
 💼 VEX WALLET - 你知道为什么 ;)
 
 准备好迎接真正的自由了吗？`,
-    buttons: [
-      [{ text: "启动VEX", web_app: { url: "https://app.telegram.vex.so" } }],
-      [{ text: "加入VEX Social", url: "https://t.me/vexsocial" }],
-    ],
   },
 };
 
-async function sendPhotoWithButtons(chatId, imageUrl, caption, buttons) {
-  return fetch(`${TELEGRAM_API_URL}sendPhoto`, {
+const buttons = [
+  [{ text: "Launch VEX", web_app: { url: CONFIG.VEX_APP_URL } }],
+  [{ text: "Join VEX Social", url: CONFIG.VEX_SOCIAL_URL }],
+];
+
+async function sendTelegramPhoto(
+  chatId: number,
+  imageUrl: string,
+  caption: string
+) {
+  return fetch(`${CONFIG.TELEGRAM_API_URL}sendPhoto`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -152,34 +124,29 @@ async function sendPhotoWithButtons(chatId, imageUrl, caption, buttons) {
   });
 }
 
-async function handleStartCommand(message) {
-  const chatId = message.chat.id;
-  const userLang = message.from.language_code || "en";
-  const localization = localizations[userLang] || localizations["en"];
+async function handleStartCommand(chatId: number, languageCode: string) {
+  const userLang = localizations[languageCode] ? languageCode : "en";
+  const { welcomeText } = localizations[userLang];
 
-  await sendPhotoWithButtons(
-    chatId,
-    WELCOME_IMAGE_URL,
-    localization.welcomeText,
-    localization.buttons
-  );
+  await sendTelegramPhoto(chatId, CONFIG.WELCOME_IMAGE_URL, welcomeText);
 }
 
-async function handleRequest(request) {
-  if (request.method === "POST") {
-    const { message } = await request.json();
-
-    if (message?.text === "/start") {
-      await handleStartCommand(message);
-    }
-
-    return new Response("OK");
+async function handleRequest(request: Request) {
+  if (request.method !== "POST") {
+    return new Response("Method not allowed", { status: 405 });
   }
 
-  return new Response("Method not allowed", { status: 405 });
+  const { message } = await request.json();
+  if (message?.text === "/start") {
+    const { id: chatId } = message.chat;
+    const { language_code: langCode = "en" } = message.from;
+    await handleStartCommand(chatId, langCode);
+  }
+
+  return new Response("OK");
 }
 
 // Слушаем события
-addEventListener("fetch", (event) => {
+addEventListener("fetch", (event: any) => {
   event.respondWith(handleRequest(event.request));
 });
