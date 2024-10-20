@@ -14,24 +14,28 @@ Welcome to the VEX Social family.
 Use 🔐 VEX VPN and earn 1 $VP per megabyte.
 
 We are cooking for you:
-⚡VEX HUB - quests for $VP
-📧VEX MAIL - anonymous mail 
-💼 VEX WALLET - know why? ;)
+⚡VEX HUB - complete tasks
+📧VEX MAIL - anonymous mail
+💼 VEX WALLET - you know why ;)
 
-Ready for freedom?`,
+Don't forget to subscribe to our channel @vexsocial
+
+Ready?`,
   },
   ru: {
     welcomeText: `
 Добро пожаловать в семью VEX Social.
 
-Используйте 🔐 VEX VPN и зарабатывайте 1 $VP за мегабайт.
+Используй 🔐 VEX VPN и зарабатывай 1 $VP за мегабайт.
 
 Мы готовим для вас:
-⚡VEX HUB - выполняйте задания
+⚡VEX HUB - выполняй задания
 📧VEX MAIL - анонимная почта
-💼 VEX WALLET - вы знаете зачем ;)
+💼 VEX WALLET - ты знаешь зачем ;)
 
-Готовы к настоящей свободе?`,
+Не забудь подписаться на наш канал @vexsocial
+
+Готовы?`,
   },
   es: {
     welcomeText: `
@@ -39,12 +43,15 @@ Bienvenido a la familia VEX Social.
 
 Usa 🔐 VEX VPN y gana 1 $VP por megabyte.
 
-Estamos cocinando para ti:
-⚡VEX HUB - completa misiones
+Estamos preparando para ti:
+⚡VEX HUB - completa tareas
 📧VEX MAIL - correo anónimo
 💼 VEX WALLET - ya sabes para qué ;)
 
-¿Listo para la verdadera libertad?`,
+No olvides suscribirte a nuestro canal @vexsocial
+
+¿Listo?
+`,
   },
   fr: {
     welcomeText: `
@@ -53,11 +60,14 @@ Bienvenue dans la famille VEX Social.
 Utilisez 🔐 VEX VPN et gagnez 1 $VP par mégaoctet.
 
 Nous préparons pour vous :
-⚡VEX HUB - accomplissez des quêtes
+⚡VEX HUB - accomplissez des tâches
 📧VEX MAIL - mail anonyme
 💼 VEX WALLET - vous savez pourquoi ;)
 
-Prêt pour la vraie liberté ?`,
+N'oubliez pas de vous abonner à notre chaîne @vexsocial
+
+Prêt ?
+`,
   },
   de: {
     welcomeText: `
@@ -66,11 +76,14 @@ Willkommen bei der Familie VEX Social.
 Nutze 🔐 VEX VPN und verdiene 1 $VP pro Megabyte.
 
 Wir bereiten für dich vor:
-⚡VEX HUB - Quests abschließen
-📧VEX MAIL - anonyme Mail
-💼 VEX WALLET - du weißt schon, wofür ;)
+⚡VEX HUB - Aufgaben erledigen
+📧VEX MAIL - anonyme E-Mails
+💼 VEX WALLET - du weißt warum ;)
 
-Bereit für echte Freiheit?`,
+Vergiss nicht, unseren Kanal @vexsocial zu abonnieren
+
+Bereit?
+`,
   },
   it: {
     welcomeText: `
@@ -79,11 +92,14 @@ Benvenuto nella famiglia VEX Social.
 Usa 🔐 VEX VPN e guadagna 1 $VP per megabyte.
 
 Stiamo preparando per te:
-⚡VEX HUB - completa le missioni
+⚡VEX HUB - completa i compiti
 📧VEX MAIL - posta anonima
 💼 VEX WALLET - sai perché ;)
 
-Pronto per la vera libertà?`,
+Non dimenticare di iscriverti al nostro canale @vexsocial
+
+Pronto?
+`,
   },
   zh: {
     welcomeText: `
@@ -96,7 +112,122 @@ Pronto per la vera libertà?`,
 📧VEX MAIL - 匿名邮件
 💼 VEX WALLET - 你知道为什么 ;)
 
-准备好迎接真正的自由了吗？`,
+别忘了订阅我们的频道 @vexsocial
+
+准备好了吗？
+`,
+  },
+  hi: {
+    welcomeText: `
+VEX Social परिवार में आपका स्वागत है।
+
+🔐 VEX VPN का उपयोग करें और प्रति मेगाबाइट 1 $VP कमाएं।
+
+हम आपके लिए तैयार कर रहे हैं:
+⚡VEX HUB - $VP के लिए कार्य
+📧VEX MAIL - गुमनाम मेल
+💼 VEX WALLET - जानते हैं क्यों? ;)
+
+हमारे चैनल @vexsocial को सब्सक्राइब करना न भूलें
+
+तैयार हैं?
+`,
+  },
+  id: {
+    welcomeText: `
+Selamat datang di keluarga VEX Social.
+
+Gunakan 🔐 VEX VPN dan dapatkan 1 $VP per megabyte.
+
+Kami sedang menyiapkan untukmu:
+⚡VEX HUB - selesaikan tugas
+📧VEX MAIL - email anonim
+💼 VEX WALLET - tahu kenapa? ;)
+
+Jangan lupa subscribe channel kami @vexsocial
+
+Siap?
+`,
+  },
+  ja: {
+    welcomeText: `
+VEX Socialファミリーへようこそ。
+
+🔐 VEX VPNを使用して、1メガバイトごとに1 $VPを獲得しましょう。
+
+私たちはあなたのために準備しています：
+⚡VEX HUB - タスクを完了
+📧VEX MAIL - 匿名メール
+💼 VEX WALLET - 理由を知っていますか？ ;)
+
+私たちのチャンネル @vexsocial を忘れずに購読してください
+
+準備はできましたか？
+`,
+  },
+  ko: {
+    welcomeText: `
+VEX Social 가족에 오신 것을 환영합니다.
+
+🔐 VEX VPN을 사용하고 메가바이트당 1 $VP를 획득하세요.
+
+우리는 당신을 위해 준비 중입니다:
+⚡VEX HUB - 작업 완료
+📧VEX MAIL - 익명 메일
+💼 VEX WALLET - 이유를 알고 있습니까? ;)
+
+우리 채널 @vexsocial을 구독하는 것을 잊지 마세요
+
+준비되셨나요?
+`,
+  },
+  pt: {
+    welcomeText: `
+Bem-vindo à família VEX Social.
+
+Use 🔐 VEX VPN e ganhe 1 $VP por megabyte.
+
+Estamos preparando para você:
+⚡VEX HUB - complete tarefas
+📧VEX MAIL - email anônimo
+💼 VEX WALLET - sabe por quê? ;)
+
+Não se esqueça de se inscrever no nosso canal @vexsocial
+
+Pronto?
+`,
+  },
+  vi: {
+    welcomeText: `
+Chào mừng đến với gia đình VEX Social.
+
+Sử dụng 🔐 VEX VPN và kiếm 1 $VP mỗi megabyte.
+
+Chúng tôi đang chuẩn bị cho bạn:
+⚡VEX HUB - hoàn thành nhiệm vụ
+📧VEX MAIL - thư ẩn danh
+💼 VEX WALLET - bạn biết tại sao không? ;)
+
+Đừng quên đăng ký kênh của chúng tôi @vexsocial
+
+Sẵn sàng chưa?
+`,
+  },
+  uk: {
+    welcomeText: `
+Ласкаво просимо до сім'ї VEX Social.
+
+Використовуйте 🔐 VEX VPN і заробляйте 1 $VP за мегабайт.
+
+Ми готуємо для вас:
+⚡VEX HUB - виконуйте завдання
+📧VEX MAIL - анонімна пошта
+💼 VEX WALLET - знаєте навіщо? ;)
+
+Не забудьте підписатися на наш канал @vexsocial
+
+Готові?
+`,
   },
 };
 
