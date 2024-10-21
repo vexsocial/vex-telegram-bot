@@ -12,9 +12,10 @@ const localizations = {
 🇺🇸 VEX VPN – your gateway to a secure and open internet.
 
 🔐 Connect to VEX VPN and earn 1 $VP for every protected megabyte.
-🤝🏻 Invite friends and get 5 GigaPasses = 5 GB for both of you!
+🤝🏻 Invite friends and get 5 GigaPass = 5 GB for both of you!
 
 ⚡ VEX HUB / 📧 VEX MAIL / 💼 VEX WALLET are coming soon!
+
 Ready to connect and farm?`,
     buttons: [
       [{ text: "Connect VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -29,6 +30,7 @@ Ready to connect and farm?`,
 🤝🏻 Приглашайте друзей и получайте 5 GigaPass = 5 ГБ для вас обоих!
 
 ⚡ VEX HUB / 📧 VEX MAIL / 💼 VEX WALLET скоро будут доступны!
+
 Готовы подключиться и фармить?`,
     buttons: [
       [{ text: "Подключить VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -43,6 +45,7 @@ Ready to connect and farm?`,
 🤝🏻 Invita a amigos y obtén 5 GigaPass = 5 GB para ambos!
 
 ⚡ VEX HUB / 📧 VEX MAIL / 💼 VEX WALLET estarán disponibles pronto!
+
 ¿Listo para conectarte y ganar?`,
     buttons: [
       [{ text: "Conectar VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -57,6 +60,7 @@ Ready to connect and farm?`,
 🤝🏻 Invitez des amis et obtenez 5 GigaPass = 5 Go pour vous deux!
 
 ⚡ VEX HUB / 📧 VEX MAIL / 💼 VEX WALLET arrivent bientôt!
+
 Prêt à vous connecter et à gagner?`,
     buttons: [
       [{ text: "Connecter VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -71,6 +75,7 @@ Prêt à vous connecter et à gagner?`,
 🤝🏻 Laden Sie Freunde ein und erhalten Sie 5 GigaPass = 5 GB für Sie beide!
 
 ⚡ VEX HUB / 📧 VEX MAIL / 💼 VEX WALLET kommen bald!
+
 Bereit zum Verbinden und Farmen?`,
     buttons: [
       [{ text: "VEX VPN verbinden", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -99,6 +104,7 @@ Pronto a connetterti e guadagnare?`,
 🤝🏻 邀请朋友，您们双方可获得 5 GigaPass = 5 GB 的流量!
 
 ⚡ VEX HUB / 📧 VEX MAIL / 💼 VEX WALLET 即将推出!
+
 准备好连接和赚取了吗？`,
     buttons: [
       [{ text: "连接 VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -113,6 +119,7 @@ Pronto a connetterti e guadagnare?`,
 🤝🏻 दोस्तों को आमंत्रित करें और दोनों के लिए 5 GigaPass = 5 जीबी प्राप्त करें!
 
 ⚡ VEX HUB / 📧 VEX MAIL / 💼 VEX WALLET जल्द ही आ रहे हैं!
+
 क्या आप कनेक्ट और अर्न करने के लिए तैयार हैं?`,
     buttons: [
       [{ text: "VEX VPN कनेक्ट करें", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -127,6 +134,7 @@ Pronto a connetterti e guadagnare?`,
 🤝🏻 Ajak teman dan dapatkan 5 GigaPass = 5 GB untuk kalian berdua!
 
 ⚡ VEX HUB / 📧 VEX MAIL / 💼 VEX WALLET akan segera hadir!
+
 Siap untuk terhubung dan mendapatkan hadiah?`,
     buttons: [
       [{ text: "Hubungkan VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -146,6 +154,7 @@ Siap untuk terhubung dan mendapatkan hadiah?`,
 🤝🏻 友達を招待して、二人とも5 GigaPass = 5 GBを受け取りましょう！
 
 ⚡ VEX HUB / 📧 VEX MAIL / 💼 VEX WALLETがもうすぐ登場します！
+
 接続して報酬を稼ぐ準備はできましたか？`,
     buttons: [
       [{ text: "VEX VPNに接続", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -160,6 +169,7 @@ Siap untuk terhubung dan mendapatkan hadiah?`,
 🤝🏻 친구를 초대하고 두 분 모두 5 GigaPass = 5GB를 받으세요!
 
 ⚡ VEX HUB / 📧 VEX MAIL / 💼 VEX WALLET가 곧 출시됩니다!
+
 연결하고 보상을 받을 준비가 되셨나요?`,
     buttons: [
       [{ text: "VEX VPN 연결", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -174,6 +184,7 @@ Siap untuk terhubung dan mendapatkan hadiah?`,
 🤝🏻 Convide amigos e ganhe 5 GigaPass = 5 GB para vocês dois!
 
 ⚡ VEX HUB / 📧 VEX MAIL / 💼 VEX WALLET estarão disponíveis em breve!
+
 Pronto para se conectar e ganhar?`,
     buttons: [
       [{ text: "Conectar VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -187,6 +198,7 @@ Pronto para se conectar e ganhar?`,
 🤝🏻 Mời bạn bè và nhận 5 GigaPass = 5 GB cho cả hai bạn!
 
 ⚡ VEX HUB / 📧 VEX MAIL / 💼 VEX WALLET sẽ sớm ra mắt!
+
 Sẵn sàng kết nối và kiếm điểm?`,
     buttons: [
       [{ text: "Kết nối VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -200,6 +212,7 @@ Sẵn sàng kết nối và kiếm điểm?`,
 🤝🏻 Запрошуйте друзів і отримуйте 5 GigaPass = 5 ГБ для вас обох!
 
 ⚡ VEX HUB / 📧 VEX MAIL / 💼 VEX WALLET скоро будуть доступні!
+
 Готові підключитися і заробляти?`,
     buttons: [
       [{ text: "Підключити VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
