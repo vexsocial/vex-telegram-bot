@@ -9,9 +9,11 @@ const CONFIG = {
 const localizations = {
   en: {
     welcomeText: `
-🇺🇸 VEX VPN – your gateway to a secure and open internet.   
-🔐 Connect to VEX VPN and earn 1 $VP for every megabyte of protected traffic.  
-Invite friends and get a bonus of 5 GB free traffic for each friend.  
+🇺🇸 VEX VPN – your gateway to a secure and open internet.
+
+🔐 Connect to VEX VPN and earn 1 $VP for every megabyte of protected traffic.
+🤝🏻 Invite friends and get a bonus of 5 GB free traffic for each friend.
+
 Ready to start using VPN for free?`,
     buttons: [
       [{ text: "Connect VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -20,9 +22,11 @@ Ready to start using VPN for free?`,
   },
   ru: {
     welcomeText: `
-🇷🇺 VEX VPN – ваш проводник в безопасный и свободный интернет.   
-🔐 Подключайтесь к VEX VPN и зарабатывайте 1 $VP за каждый мегабайт защищённого трафика.  
-Приглашайте друзей и получайте бонус — 5 ГБ бесплатного трафика за каждого друга.  
+🇷🇺 VEX VPN – ваш проводник в безопасный и свободный интернет. 
+
+🔐 Подключайтесь к VEX VPN и зарабатывайте 1 $VP за каждый мегабайт защищённого трафика.
+🤝🏻 Приглашайте друзей и получайте бонус — 5 ГБ бесплатного трафика за каждого друга.
+
 Готовы начать пользоваться VPN бесплатно?`,
     buttons: [
       [{ text: "Подключить VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -31,9 +35,11 @@ Ready to start using VPN for free?`,
   },
   es: {
     welcomeText: `
-🇪🇸 VEX VPN – tu puerta de acceso a un internet seguro y abierto.   
-🔐 Conéctate a VEX VPN y gana 1 $VP por cada megabyte de tráfico protegido.  
-Invita a amigos y obtén un bono de 5 GB de tráfico gratuito por cada amigo.  
+🇪🇸 VEX VPN – tu puerta de acceso a un internet seguro y abierto.
+
+🔐 Conéctate a VEX VPN y gana 1 $VP por cada megabyte de tráfico protegido.
+🤝🏻 Invita a amigos y obtén un bono de 5 GB de tráfico gratuito por cada amigo.
+
 ¿Listo para comenzar a usar VPN gratis?`,
     buttons: [
       [{ text: "Conectar VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -42,9 +48,11 @@ Invita a amigos y obtén un bono de 5 GB de tráfico gratuito por cada amigo.
   },
   fr: {
     welcomeText: `
-🇫🇷 VEX VPN – votre accès à un internet sécurisé et libre.   
-🔐 Connectez-vous à VEX VPN et gagnez 1 $VP pour chaque mégaoctet de trafic protégé.  
-Invitez des amis et obtenez un bonus de 5 Go de trafic gratuit pour chaque ami.  
+🇫🇷 VEX VPN – votre accès à un internet sécurisé et libre.
+
+🔐 Connectez-vous à VEX VPN et gagnez 1 $VP pour chaque mégaoctet de trafic protégé.
+🤝🏻 Invitez des amis et obtenez un bonus de 5 Go de trafic gratuit pour chaque ami.
+
 Prêt à commencer à utiliser le VPN gratuitement?`,
     buttons: [
       [{ text: "Connecter VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -53,9 +61,11 @@ Prêt à commencer à utiliser le VPN gratuitement?`,
   },
   de: {
     welcomeText: `
-🇩🇪 VEX VPN – Ihr Tor zu einem sicheren und freien Internet.   
-🔐 Verbinden Sie sich mit VEX VPN und verdienen Sie 1 $VP für jedes Megabyte geschützten Datenverkehrs.  
-Laden Sie Freunde ein und erhalten Sie einen Bonus von 5 GB kostenlosem Datenverkehr für jeden Freund.  
+🇩🇪 VEX VPN – Ihr Tor zu einem sicheren und freien Internet.
+
+🔐 Verbinden Sie sich mit VEX VPN und verdienen Sie 1 $VP für jedes Megabyte geschützten Datenverkehrs.
+🤝🏻 Laden Sie Freunde ein und erhalten Sie einen Bonus von 5 GB kostenlosem Datenverkehr für jeden Freund.
+
 Bereit, das VPN kostenlos zu nutzen?`,
     buttons: [
       [{ text: "VEX VPN verbinden", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -64,9 +74,11 @@ Bereit, das VPN kostenlos zu nutzen?`,
   },
   it: {
     welcomeText: `
-🇮🇹 VEX VPN – il tuo accesso a un internet sicuro e aperto.   
-🔐 Connettiti a VEX VPN e guadagna 1 $VP per ogni megabyte di traffico protetto.  
-Invita gli amici e ricevi un bonus di 5 GB di traffico gratuito per ogni amico.  
+🇮🇹 VEX VPN – il tuo accesso a un internet sicuro e aperto.
+
+🔐 Connettiti a VEX VPN e guadagna 1 $VP per ogni megabyte di traffico protetto.
+🤝🏻 Invita gli amici e ricevi un bonus di 5 GB di traffico gratuito per ogni amico.
+
 Pronto a iniziare a usare il VPN gratuitamente?`,
     buttons: [
       [{ text: "Connetti VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -75,9 +87,11 @@ Pronto a iniziare a usare il VPN gratuitamente?`,
   },
   zh: {
     welcomeText: `
-🇨🇳 VEX VPN – 进入安全开放互联网的通道。   
-🔐 连接 VEX VPN，您将获得每兆流量 1 $VP 的奖励。  
-邀请朋友，每邀请一位朋友可获得 5 GB 的免费流量奖励。  
+🇨🇳 VEX VPN – 进入安全开放互联网的通道。
+
+🔐 连接 VEX VPN，您将获得每兆流量 1 $VP 的奖励。
+🤝🏻 邀请朋友，每邀请一位朋友可获得 5 GB 的免费流量奖励。
+
 准备好免费使用 VPN 了吗？`,
     buttons: [
       [{ text: "连接 VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -86,7 +100,7 @@ Pronto a iniziare a usare il VPN gratuitamente?`,
   },
   hi: {
     welcomeText: `
-🇮🇳 VEX VPN – आपका सुरक्षित और खुला इंटरनेट में प्रवेश।   
+🇮🇳 VEX VPN – आपका सुरक्षित और खुला इंटरनेट में प्रवेश। 
 🔐 VEX VPN से कनेक्ट करें और हर मेगाबाइट सुरक्षित ट्रैफ़िक के लिए 1 $VP कमाएं।  
 दोस्तों को आमंत्रित करें और प्रत्येक दोस्त के लिए 5 जीबी मुफ्त ट्रैफ़िक बोनस प्राप्त करें।  
 क्या आप मुफ्त में VPN का उपयोग शुरू करने के लिए तैयार हैं?`,
@@ -97,9 +111,11 @@ Pronto a iniziare a usare il VPN gratuitamente?`,
   },
   id: {
     welcomeText: `
-🇮🇩 VEX VPN – pintu gerbang Anda ke internet yang aman dan terbuka.   
-🔐 Hubungkan ke VEX VPN dan dapatkan 1 $VP untuk setiap megabyte lalu lintas yang terlindungi.  
-Ajak teman dan dapatkan bonus 5 GB lalu lintas gratis untuk setiap teman.  
+🇮🇩 VEX VPN – pintu gerbang Anda ke internet yang aman dan terbuka.
+
+🔐 Hubungkan ke VEX VPN dan dapatkan 1 $VP untuk setiap megabyte lalu lintas yang terlindungi.
+🤝🏻 Ajak teman dan dapatkan bonus 5 GB lalu lintas gratis untuk setiap teman.
+
 Siap untuk mulai menggunakan VPN secara gratis?`,
     buttons: [
       [{ text: "Hubungkan VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -113,9 +129,11 @@ Siap untuk mulai menggunakan VPN secara gratis?`,
   },
   ja: {
     welcomeText: `
-🇯🇵 VEX VPN – 安全でオープンなインターネットへのゲートウェイ。   
-🔐 VEX VPNに接続して、保護されたトラフィックの1メガバイトごとに1 $VPを獲得しましょう。  
-友達を招待して、友達ごとに5 GBの無料トラフィックをボーナスとして受け取りましょう。  
+🇯🇵 VEX VPN – 安全でオープンなインターネットへのゲートウェイ。
+
+🔐 VEX VPNに接続して、保護されたトラフィックの1メガバイトごとに1 $VPを獲得しましょう。
+🤝🏻 友達を招待して、友達ごとに5 GBの無料トラフィックをボーナスとして受け取りましょう。
+
 VPNを無料で使い始める準備はできましたか？`,
     buttons: [
       [{ text: "VEX VPNに接続", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -124,9 +142,11 @@ VPNを無料で使い始める準備はできましたか？`,
   },
   ko: {
     welcomeText: `
-🇰🇷 VEX VPN – 안전하고 개방적인 인터넷으로 가는 관문입니다.   
-🔐 VEX VPN에 연결하고 보호된 트래픽의 1메가바이트당 1 $VP를 적립하세요.  
-친구를 초대하고 친구 한 명당 5GB의 무료 트래픽 보너스를 받으세요.  
+🇰🇷 VEX VPN – 안전하고 개방적인 인터넷으로 가는 관문입니다.
+
+🔐 VEX VPN에 연결하고 보호된 트래픽의 1메가바이트당 1 $VP를 적립하세요.
+🤝🏻 친구를 초대하고 친구 한 명당 5GB의 무료 트래픽 보너스를 받으세요.
+
 무료로 VPN을 사용하기 시작할 준비가 되셨나요?`,
     buttons: [
       [{ text: "VEX VPN 연결", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -135,9 +155,11 @@ VPNを無料で使い始める準備はできましたか？`,
   },
   pt: {
     welcomeText: `
-🇵🇹 VEX VPN – sua porta de entrada para uma internet segura e aberta.   
-🔐 Conecte-se ao VEX VPN e ganhe 1 $VP por cada megabyte de tráfego protegido.  
-Convide amigos e ganhe um bônus de 5 GB de tráfego gratuito para cada amigo.  
+🇵🇹 VEX VPN – sua porta de entrada para uma internet segura e aberta. 
+
+🔐 Conecte-se ao VEX VPN e ganhe 1 $VP por cada megabyte de tráfego protegido.
+🤝🏻 Convide amigos e ganhe um bônus de 5 GB de tráfego gratuito para cada amigo.
+
 Pronto para começar a usar VPN gratuitamente?`,
     buttons: [
       [{ text: "Conectar VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -146,9 +168,10 @@ Pronto para começar a usar VPN gratuitamente?`,
   },
   vi: {
     welcomeText: `
-🇻🇳 VEX VPN – cổng kết nối của bạn tới internet an toàn và mở.   
-🔐 Kết nối với VEX VPN và kiếm 1 $VP cho mỗi megabyte lưu lượng được bảo vệ.  
-Mời bạn bè và nhận phần thưởng là 5 GB lưu lượng miễn phí cho mỗi người bạn.  
+🇻🇳 VEX VPN – cổng kết nối của bạn tới internet an toàn và mở.
+🔐 Kết nối với VEX VPN và kiếm 1 $VP cho mỗi megabyte lưu lượng được bảo vệ.
+🤝🏻 Mời bạn bè và nhận phần thưởng là 5 GB lưu lượng miễn phí cho mỗi người bạn.
+
 Sẵn sàng sử dụng VPN miễn phí chưa?`,
     buttons: [
       [{ text: "Kết nối VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
@@ -157,9 +180,10 @@ Sẵn sàng sử dụng VPN miễn phí chưa?`,
   },
   uk: {
     welcomeText: `
-🇺🇦 VEX VPN – ваш провідник у безпечний і відкритий інтернет.   
-🔐 Підключайтеся до VEX VPN і заробляйте 1 $VP за кожен мегабайт захищеного трафіку.  
-Запрошуйте друзів і отримуйте бонус — 5 ГБ безкоштовного трафіку за кожного друга.  
+🇺🇦 VEX VPN – ваш провідник у безпечний і відкритий інтернет.
+🔐 Підключайтеся до VEX VPN і заробляйте 1 $VP за кожен мегабайт захищеного трафіку.
+🤝🏻 Запрошуйте друзів і отримуйте бонус — 5 ГБ безкоштовного трафіку за кожного друга.
+
 Готові почати користуватися VPN безкоштовно?`,
     buttons: [
       [{ text: "Підключити VEX VPN", web_app: { url: CONFIG.VEX_APP_URL } }],
